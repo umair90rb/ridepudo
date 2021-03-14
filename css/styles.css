@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+html {
+    background-image: url('../assets/chairs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#black {
+    background-color: black;
+    top: -10%;
+    left: -10%;
+    height: 120%;
+    width: 120%;
+    position: fixed;
+    opacity: 100%;
+    z-index: 2;
+    transition: all 1.5s ease-in;
+}
+
+html.active #black {
+    opacity: 50%;
+}
+
+
+html.active body {
+    background-color: transparent;
+}
+
+#ride-pudo-animation {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+}
+
+#ride-pudo-animation .container {
+    position: absolute;
+    width: 80%;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    z-index: 10;
+}
+
+#mc_embed_signup {
+    text-align: center;
+    float: none;
+    font:14px Helvetica,Arial,sans-serif; 
+    width:100%;
+}
+
+#mc-embedded-subscribe {
+    color: white;
+    background-color: #9A66AB;
+    font-weight: 600;
+    padding: 15px 30px;
+    max-width: 250px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#logo{
+    position: relative;
+    display: block;
+}
+
+#base, #car {
+    width: 100%;
+}
+
+#base {
+    margin-top: 100px;
+    position: relative;
+}
+
+#car {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.subscribe .details {
+    text-align: center;
+    display: block;
+    color: #9A66AB;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: all 1.5s ease-in;
+}
+
+html.active .subscribe .details {
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+    html #ride-pudo-animation .container{
+        max-width: 100%;
+    }
+    
+    html #mc_embed_signup {
+        font:24px Helvetica,Arial,sans-serif; 
+    }
+
+    html .subscribe .details {
+        font-size: 24px;
+    }
+
+    html #mc-embedded-subscribe {
+        font-size: 26px;
+    }
+}
+
+/* Update imagery to woman */
+
+/* 10 hrs a day a driver a drive with passenger
+base agreement stylist and driver */
+
+/* drivers must be paid within one week */
