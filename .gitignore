@@ -32,6 +32,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # ridepudo ignore files
 .htaccess
-application/config/*
 rp_assets/Images/shop_images/*
 rp_assets/Images/user_images/*
